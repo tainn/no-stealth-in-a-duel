@@ -1,20 +1,20 @@
 # no-stealth-in-a-duel
 
-bzflag plugin preventing the use of stealth in a 1v1
+BZFlag plugin preventing the use of Stealth in a 1v1
 
-## funct
+## Funct
 
-- forcibly drops stealth if the player count is two or less
+- forcibly drops Stealth if the player count is `<=2`
 
-## use
+## Use
 
-defaults to tracking stealth
+Defaults to tracking Stealth
 
 ```sh
 -loadplugin NoStealthInADuel.so
 ```
 
-can be given an explicit array of flags to track
+But can be given an explicit array of flags to track
 
 ```sh
 -loadplugin NoStealthInADuel.so,ST:SW:L
